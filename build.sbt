@@ -13,12 +13,15 @@ resolvers += Resolver.bintrayRepo("neelsmith","maven")
 resolvers += Resolver.bintrayRepo("eumaeus", "maven")
 resolvers += sbt.Resolver.bintrayRepo("denigma", "denigma-releases")
 
+Compile / run / fork := true
+
+
 connectInput in run := true
 
 javaOptions in run ++= Seq(
     "-Xms256M",
     "-Xmn16M",
-    "-Xmx1G"
+    "-Xmx4G"
 )
 
 libraryDependencies ++=   Seq(
@@ -29,6 +32,7 @@ libraryDependencies ++=   Seq(
   "edu.holycross.shot" %% "citeobj" % "7.3.4",
   "edu.holycross.shot" %% "citerelations" % "2.5.2",
   "edu.holycross.shot" %% "cex" % "6.3.3",
-  "edu.furman.classics" %% "citewriter" % "1.0.1"  
+  "edu.furman.classics" %% "citewriter" % "1.0.1",
+  "com.github.pathikrit" %% "better-files" % "3.8.0"
 )
 
