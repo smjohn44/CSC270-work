@@ -9,7 +9,7 @@ license#CC Share Alike.  For details, see more info.
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:fuTexts:GROUP.WORK.VERSION:#CITATION-SCHEME#NAME-OF-GROUP#TITLE-OF-WORK#INFO-ABOUT-VERSION##true#eng
+urn:cts:fuTexts:irving.lsh.johnson:#CITATION-SCHEME#NAME-OF-GROUP#TITLE-OF-WORK#INFO-ABOUT-VERSION##true#eng
 
 #!ctsdata
 urn:cts:fuTexts:irving.lsh.johnson:1#FOUND AMONG THE PAPERS OF THE LATE DIEDRICH KNICKERBOCKER.

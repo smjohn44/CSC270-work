@@ -9,9 +9,8 @@ import scala.annotation.tailrec
 
 println("\n\n\n\n")
 
-val lib: CiteLibrary = loadLibrary("text/xxxx.cex")
+val lib: CiteLibrary = loadLibrary("text/SleepyHollow.cex")
 
 val tr: TextRepository = lib.textRepository.get
 
 val corp: Corpus = tr.corpus
-
