@@ -13,7 +13,7 @@ a {
 	text-decoration: italic;
 	margin: 0 0.5em 0 0;
 	padding: 2px;
-}
+ }
 
 /* :hover	 is what it will look like when you hover the mouse over an element */
 a:hover {
@@ -25,12 +25,13 @@ a:hover {
 /* The three values are from 0-F, and represent Red, Green, Blue */
 header {
 	color: #666;
+	text-align: center;
 	font-size: 200%;
 }
 
 article {
-	border: 3px solid orange;
-	padding: 2em;
+	border: 2px solid orange;
+	padding: 4em;
 }
 
 /* Styles attached to element-names apply to _every_ element
@@ -79,7 +80,7 @@ div.cts_corpus {
 
 .cts_node {
 	margin-top: 1em;
-	max-width: 40em;
+	max-width: 150em;
 }
 
 progress.cts_progress {
