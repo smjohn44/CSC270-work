@@ -3,7 +3,7 @@ html {
 	background-color: #000; # lowest is 0, highest is f
 	.fantasy
 	{font-family: fantasy;}
-	line-height: 3.0em;
+	line-height: 4.0em;
 	color: red; # to change the font color
 }
 
@@ -12,7 +12,7 @@ html {
 a {
 	text-decoration: italic;
 	margin: 0 0.5em 0 0;
-	padding: 2px;
+	padding: 3px;
  }
 
 /* :hover	 is what it will look like when you hover the mouse over an element */
@@ -24,20 +24,20 @@ a:hover {
 /* You can define any color with a 3-digit "hex-code" */
 /* The three values are from 0-F, and represent Red, Green, Blue */
 header {
-	color: #666;
+	color: #f00;
 	text-align: center;
-	font-size: 200%;
+	font-size: 300%;
 }
 
 article {
-	border: 2px solid orange;
+	border: 4px dotted orange;
 	padding: 4em;
 }
 
 /* Styles attached to element-names apply to _every_ element
 	 with that name */
 div {
-	border: 3px dotted #fff;
+	border: 2px solid #fff;
 	padding: 5px;
 }
 
@@ -46,7 +46,7 @@ div {
 	 in the HTML)
 */
 div.cts_corpus {
-	border: 4px line #00f;
+	border: 5px line #00f;
 }
 
 
@@ -63,7 +63,7 @@ div.cts_corpus {
 
 .cts_corpusTitle {
 	color: red ;
-	border: 1px solid red;
+	border: 2px solid red;
 }
 
 /* You can add space on any side of something with:
