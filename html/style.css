@@ -1,8 +1,6 @@
 html {
 	margin: 3em;
 	background-color: #000; # lowest is 0, highest is f
-	.fantasy
-	{font-family: fantasy;}
 	line-height: 4.0em;
 	color: red; # to change the font color
 }
@@ -31,7 +29,7 @@ header {
 
 article {
 	border: 4px dotted orange;
-	padding: 4em;
+	padding: 3em;
 }
 
 /* Styles attached to element-names apply to _every_ element
