@@ -1,6 +1,6 @@
 html {
 	margin: 3em;
-	background-color: #000; # lowest is 0, highest is f
+	background-color: 000; # lowest is 0, highest is f
 	line-height: 4.0em;
 	color: red; # to change the font color
 }
@@ -15,7 +15,7 @@ a {
 
 /* :hover	 is what it will look like when you hover the mouse over an element */
 a:hover {
-	background-color: white;
+	background-color: red;
 	border: 2px solid red ;
 }
 
@@ -28,14 +28,14 @@ header {
 }
 
 article {
-	border: 4px dotted orange;
+	border: 4px ridge orange;
 	padding: 3em;
 }
 
 /* Styles attached to element-names apply to _every_ element
 	 with that name */
 div {
-	border: 2px solid #fff;
+	border: 2px none #fff;
 	padding: 5px;
 }
 
@@ -44,7 +44,7 @@ div {
 	 in the HTML)
 */
 div.cts_corpus {
-	border: 5px line #00f;
+	border: 5px ridge 200;
 }
 
 
@@ -55,12 +55,12 @@ div.cts_corpus {
 
 /* Fonts are tricky… read about them online! */
 .cts_citationScheme {
-	color: red ;
+	color: white ;
 	font-family: DejaVu-Sans-Mono, monospace;
 }
 
 .cts_corpusTitle {
-	color: red ;
+	color: red ; // didnt want a title
 	border: 2px solid red;
 }
 
