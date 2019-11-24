@@ -15,7 +15,8 @@ object demo {
 	}
 
 	def addOne ( s: String ): String = {
-		s"${s} + 1"	
+		s"${s} + 1"
 	}
+	def addOne(d:Double): Double = {d + 1}
 
 }
