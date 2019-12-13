@@ -198,6 +198,7 @@ object webWriter {
 			<body>
 			<header>Your header</header>
 			<article>
+			<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fvignette.wikia.nocookie.net%2Fsleepyhollow%2Fimages%2F9%2F92%2FSleepyHollow_Image_%252876%2529.png%2Frevision%2Flatest%3Fcb%3D20190510140140&imgrefurl=https%3A%2F%2Fsleepyhollow.fandom.com%2Fwiki%2FHeadless_Horseman_(film)&docid=svvcZ7_s0u0CnM&tbnid=IySaR6J24QH7FM%3A&vet=10ahUKEwiLy-emi7PmAhVFvFkKHWy1DQAQMwiHASgOMA4..i&w=1920&h=1080&bih=840&biw=708&q=sleepy%20hollow&ved=0ahUKEwiLy-emi7PmAhVFvFkKHWy1DQAQMwiHASgOMA4&iact=mrc&uact=8" alt="Title Picture">
 			${sequenceString}
 			${catString}
 			<div class="cts_tocLink"><a href="index.html">Table of Contents</a></div>
@@ -206,7 +207,7 @@ object webWriter {
 			${corpString}
 			${navString}
 			</article>
-			<footer>Your footer</footer>
+			<footer><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</footer>
 			</body>
 			</html>
 			"""
@@ -254,7 +255,7 @@ object webWriter {
 
 		val titleString: String = workCat.toString // can fancify this
 
-		val infoString: String = """<div class="cts_siteDesc">Whatever you want to say here.</div>"""
+		val infoString: String = """<div class="cts_siteDesc">Why are the changes I'm making not showing?</div>"""
 
 		val tocHeader: String = """<div class="cts_toc">Table of Contents</div>"""
 
