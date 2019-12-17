@@ -1,8 +1,9 @@
 html {
 	margin: 3em;
-	background-color: 000; # lowest is 0, highest is f
+	background-color: #333; # lowest is 0, highest is f
 	line-height: 4.0em;
-	color: red; # to change the font color
+	color: white; # to change the font color
+	font-family: 'Noticia Text', serif;
 }
 
 
@@ -47,7 +48,7 @@ div {
 */
 div.cts_corpus {
 	border-style: outset;
-	border-color: white;
+	border-color: red;
 }
 
 
@@ -59,14 +60,18 @@ div.cts_corpus {
 /* Fonts are tricky… read about them online! */
 .cts_citationScheme {
 	color: white ;
-	font-family: DejaVu-Sans-Mono, monospace;
+font-family: DejaVu-Sans-Mono, monospace;
 }
 
 .cts_corpusTitle {
 	color: red ; // didnt want a title
 	border: 2px solid red;
 }
-
+span.cts_tocIndex{
+	color: red;
+	display: inline-block;
+	min-width: 1.5em; #make smaller}
+}
 /* You can add space on any side of something with:
 		- margin-right
 		- margin-left

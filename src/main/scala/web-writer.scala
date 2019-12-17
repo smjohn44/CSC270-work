@@ -192,11 +192,10 @@ object webWriter {
 			<html>
 			<head>
 			<title>${fileName}</title>
-			<link rel="stylesheet" href="../style.css">
-			<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i,800,800i&amp;subset=cyrillic-ext,greek,greek-ext,latin-ext" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Noticia+Text&display=swap" rel="stylesheet">
 			</head>
 			<body>
-			<header>Table of Contents</header>
+			<header>The Legend of Sleepy Hollow</header>
 			<article>
 			${sequenceString}
 			${catString}
@@ -254,7 +253,7 @@ object webWriter {
 
 		val titleString: String = workCat.toString // can fancify this
 
-		val infoString: String = """<div class="cts_siteDesc">Why are the changes I'm making not showing?</div>"""
+		val infoString: String = """<div class="cts_siteDesc">The Legend of Sleepy Hollow by Washington Irving</div>"""
 
 		val tocHeader: String = """<div class="cts_toc">Table of Contents</div>"""
 
@@ -284,18 +283,18 @@ object webWriter {
 			<head>
 			<meta charset="utf-8"/>
 			<title>${titleString}</title>
-			<link rel="stylesheet" href="../style.css">
-			<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i,800,800i&amp;subset=cyrillic-ext,greek,greek-ext,latin-ext" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Noticia+Text&display=swap" rel="stylesheet">
 			</head>
 			<body>
-			<header>Your header</header>
+			<header>Table of Contents</header>
 			<article>
 			${catString}
 			${infoString}
 			${tocHeader}
 			${toc}
 			</article>
-			<footer>Your footer</footer>
+			<img src="https://images-na.ssl-images-amazon.com/images/I/41lodVuhZjL.jpg" alt="Sleepy Hollow Picture">
+			<footer><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</footer>
 			</body>
 			</html>
 		"""
